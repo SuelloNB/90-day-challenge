@@ -171,3 +171,8 @@ This repository represents my **learning journey toward becoming a software deve
 ---
 
 ⭐ *Consistency beats intensity — improving one day at a time.*
+
+---
+
+# 90-day-challenge
+A structured 90-day journey to master HTML, CSS, and JavaScript fundamentals through hands-on practice and projects.
