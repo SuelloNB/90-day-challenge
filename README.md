@@ -96,7 +96,7 @@ The HTML section contains examples demonstrating:
 * Semantic HTML elements
 * Accessibility best practices
 
-These examples serve as **reference implementations for core HTML concepts** learned through FreeCodeCamp.
+These examples serve as **reference implementations for core HTML concepts.
 
 ---
 
