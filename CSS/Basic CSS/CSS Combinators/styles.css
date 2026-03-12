@@ -1,0 +1,24 @@
+#sample-image {
+    width: 200px;
+}
+/*descendant combinator*/
+.descendant-combinator img {
+    width: 300px;
+    border: 2px solid red;
+}
+
+/*child combinator*/
+.child-combinator > figcaption {
+    width: 300px;
+    border: 2px solid blue;
+}
+
+/*next sibling combinator*/
+.next-sibling-combinator figcaption + code{
+    color: red;
+}
+
+/*subsequent sibling combinator*/
+.subsequent-sibling-combinator img ~ figcaption, code{
+    color: blue;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <!--Descendant Combinator-->
+    <figure class="descendant-combinator">
+        <img src="/CSS/Basic CSS/Assets/images/1-8r e.jpg" alt="A person's simple picture wearing a suit" id="sample-image">
+        <figcaption>Fig. 1 - An example of a descendant combinator</figcaption>
+        <code>
+            <pre>
+            figure img { 
+            width: 300px; 
+            border: 2px solid red; 
+            }
+            </pre>
+        </code>
+    </figure>
+
+    <!--Child Combinator-->
+    <figure class="child-combinator">
+        <img src="/CSS/Basic CSS/Assets/images/1-8r e.jpg" alt="A person's simple picture wearing a suit" id="sample-image">
+        <figcaption>Fig. 2 - An example of a child combinator</figcaption>
+        <code>
+            <pre>
+            .child-combinator > figcaption {
+            width: 300px;
+            border: 2px solid blue;
+            }
+            </pre>
+        </code>
+    </figure>
+
+    <!--Next Sibling Combinator-->
+    <figure class="next-sibling-combinator">
+        <img src="/CSS/Basic CSS/Assets/images/1-8r e.jpg" alt="A person's simple picture wearing a suit" id="sample-image">
+        <figcaption>Fig. 3 - An example of a next sibling combinator</figcaption>
+        <code>
+            <pre>
+            .next-sibling-combinator figcaption + code{
+             color: red;
+            }
+            </pre>
+        </code>
+    </figure>
+
+    <!--Subsequent Sibling Combinator-->
+    <figure class="subsequent-sibling-combinator">
+        <img src="/CSS/Basic CSS/Assets/images/1-8r e.jpg" alt="A person's simple picture wearing a suit" id="sample-image">
+        <figcaption>Fig. 4 - An example of a subsequent sibling combinator</figcaption>
+        <code>
+            <pre>
+            .subsequent-sibling-combinator img ~ figcaption, code{
+             color: blue;
+            }
+            </pre>
+        </code>
+</body>
+</html>
