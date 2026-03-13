@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margins and Paddings</title>
+    <link rel="stylesheet" href="/CSS/Basic CSS/Margins and Paddings/styles.css">
+</head>
+<body>
+    <!--This segment is how to use margins-->
+    <div class="margin-example">
+        <h1>Margins</h1>
+
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+
+        <pre style="color: red;">
+            <code>
+/*Margins are the space outside the border of an element. They create space between elements.*/
+.margin-example p{
+margin-top: 20px; /* This will create a 20px margin on all sides of the element */
+border: 1px solid black; /* This is just to visualize the margin */
+}           
+            </code>
+        </pre>
+
+        <!--Using all properties in margins-->
+        <div class="margin-properties">
+            <h2>Using all properties in margins</h2>
+            <span>Paragraph 4</span>
+            <p>Paragraph 5</p>
+            <span>Paragraph 6</span>
+            <pre style="color: red;">
+                <code>
+/*Using margins in all properties*/
+.margin-properties p{
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 30px;
+margin-left: 40px;
+border: 2px solid black;  
+}
+                </code>
+            </pre>
+        </div>
+
+        <!--Using margin in short hand -->
+        <div class="margin-shorthand">
+            <h2>Using margin in shorthand</h2>
+            <span>Paragraph 7</span>
+            <p>Paragraph 8</p>
+            <span>Paragraph 9</span>
+            <pre style="color: red;">
+                <code>
+/*Using margin in short hand*/
+.margin-shorthand p{
+margin: 10px; /* This is the shorthand for all four sides */
+border: 2px solid black; 
+}
+                </code>
+            </pre>
+        </div>
+
+        <!--Using margin in shorthand 2 values-->
+        <div class="margin-shorthand-two-values">
+            <h2>Using margin in shorthand with 2 values</h2>
+            <span>Paragraph 10</span>
+            <p>Paragraph 11</p>
+            <span>Paragraph 12</span>
+            <pre style="color: red;">
+                <code>
+/*Using the shorthand property for margins with 2 values*/
+.margin-shorthand-top-bottom p{
+margin: 10px 20px; /* This sets the top and bottom margins to 10px and left and right margins to 20px */
+border: 2px solid black;  
+}
+                </code>
+            </pre>
+        </div>
+
+        <!--Using margin in shorthand 3 values-->
+        <div class="margin-shorthand-three-values">
+            <h2>Using margin in shorthand 3 values</h2>
+            <span>Paragraph 13</span>
+            <p>Paragraph 14</p>
+            <span>Paragraph 15</span>
+            <pre style="color: red;">
+                <code>
+/*Using the shorthand property with 3 values*/
+.margin-shorthand-three-values p{
+margin: 10px 20px 30px; /* This sets the top margin to 10px, left and right margins to 20px, and bottom margin to 30px */
+border: 2px solid black;  
+}
+                </code>
+            </pre>
+        </div>
+    </div>
+    
+</body>
+</html>

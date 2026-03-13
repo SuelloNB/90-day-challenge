@@ -1,0 +1,52 @@
+/* ==============================================================
+   CODE BLOCK STYLING
+
+   - <pre> elements are block-level and normally expand to the
+     full width of their container.
+
+   - width: fit-content allows the border to wrap tightly
+     around the code text instead of stretching full width.
+
+   - overflow-x: auto ensures long code lines do not break
+     the layout by enabling horizontal scrolling when needed.
+================================================================ */
+pre {
+    border: 2px solid black;
+    padding: 10px;
+    width: fit-content;
+    overflow-x: auto;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+/*Margins are the space outside the border of an element. They create space between elements.*/
+.margin-example p{
+    margin-top: 20px; /* Adds 20px space above the element */
+    border: 2px solid black; /* This is just to visualize the margin */
+}
+
+/*Using margins in all properties*/
+.margin-properties p{
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  border: 2px solid black;  
+}
+
+/*Using the shorthand property for margins*/
+.margin-shorthand p{
+  margin: 10px; /* This is the shorthand for all four sides */
+  border: 2px solid black;  
+}
+
+/*Using the shorthand property for margins with 2 values*/
+.margin-shorthand-two-values p{
+  margin: 10px 20px; /* This sets the top and bottom margins to 10px and left and right margins to 20px */
+  border: 2px solid black;  
+}
+
+/*Using the shorthand property with 3 values*/
+.margin-shorthand-three-values p{
+  margin: 10px 20px 30px; /* This sets the top margin to 10px, left and right margins to 20px, and bottom margin to 30px */
+  border: 2px solid black;  
+}
