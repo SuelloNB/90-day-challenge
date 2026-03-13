@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inline and Block Elements</title>
+    <link rel="stylesheet" href="/CSS/Basic CSS/Inline and Block-Level Elements/styles.css">
 </head>
 <body>
+
+    <!--Block Level Elements-->
+    <h1>This is a block-level Element</h1>
+    <p style="border: 2px solid red;">
+        First paragraph
+    </p>
+    <p>Second paragraph</p>
+
+    <div class="block-elements">
+        <p style="border: 2px solid red;">
+            First paragraph
+        </p>
+        <p>Second paragraph</p>
+    </div>
+
+    <!--Inline Elements-->
+    <h1>This is an inline-level Element</h1>
+    <p>This is a <span style="color: red; border: 2px solid green;">red</span>
+    word inside a paragraph
+    </p>
+
+    <p>This is a <span style="color: red; border: 2px solid green;" class="inline">red</span>
+    word inside a paragraph
+    </p>
     
+    <!--Inline-Block Elements-->
+    <h1>This is an inline-block Element</h1>
+    <div class="container">
+        <span class="inline-block-element element1">Inline-Block 1</span>
+        <span class="inline-block-element element2">Inline-Block 2</span>
+    </div>
 </body>
 </html>

@@ -1,0 +1,31 @@
+/*Block-Level Elements*/
+.block-elements p {
+    background-color: rgb(207, 225, 43);
+    /*Block-level elements take up the full width available by default, so they will stretch to fill the width of their container. The height of a block-level element is determined by its content and any padding or margins applied to it. In this case, the paragraphs will take up the full width of their container and their height will be determined by the amount of text they contain and any additional spacing applied to them.*/
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+/*Inline Elements*/
+.inline{
+    background-color: rgb(207, 225, 43);
+    /*The width and height properties do not apply to inline elements, so they will not affect the size of the element. The element will only take up as much width as necessary to fit its content, and its height will be determined by the line height of the text or other inline content within it. In this case, the span element will only be as wide as the word "red" and its height will be determined by the line height of the text in the paragraph.*/
+    width: 100px;
+    height: 100px;
+}
+
+/*Inline-Block Elements*/
+.inline-block-element {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+}
+
+.element1 {
+  background-color: lightblue;
+}
+
+.element2 {
+  background-color: lightgreen;
+}
