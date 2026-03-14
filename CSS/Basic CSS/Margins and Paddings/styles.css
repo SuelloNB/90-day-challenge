@@ -70,3 +70,9 @@ pre {
     padding-left: 40px; /* Adds 40px space to the left of the content */
     border: 2px solid black; /* This is just to visualize the padding */
 }
+
+/*Using the shorthand property for padding*/
+.padding-shorthand p{
+    padding: 10px 20px 30px 40px; /* This sets the top padding to 10px, right padding to 20px, bottom padding to 30px, and left padding to 40px */
+    border: 2px solid black;  
+}
