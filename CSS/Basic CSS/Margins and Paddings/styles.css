@@ -50,3 +50,9 @@ pre {
   margin: 10px 20px 30px; /* This sets the top margin to 10px, left and right margins to 20px, and bottom margin to 30px */
   border: 2px solid black;  
 }
+
+/*Using the shorthand property with 4 values*/
+.margin-shorthand-four-values p{
+  margin: 10px 20px 30px 40px; /* This sets the top margin to 10px, right margin to 20px, bottom margin to 30px, and left margin to 40px */
+  border: 2px solid black;  
+}
