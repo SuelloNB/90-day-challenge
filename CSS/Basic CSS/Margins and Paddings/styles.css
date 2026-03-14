@@ -76,3 +76,9 @@ pre {
     padding: 10px 20px 30px 40px; /* This sets the top padding to 10px, right padding to 20px, bottom padding to 30px, and left padding to 40px */
     border: 2px solid black;  
 }
+
+/*Using the shorthand property with 2 values*/
+.padding-shorthand-two-values p{
+  padding: 30px 40px; /*This sets the top, bottom padding to 30px and left , right padding to 40px*/
+  border: 2px solid black;
+}
