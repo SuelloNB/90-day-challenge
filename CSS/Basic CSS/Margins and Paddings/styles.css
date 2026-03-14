@@ -89,3 +89,9 @@ pre {
   padding: 20px 40px 30px; /*This sets the top padding to 20px, right and left padding to 40px and bottom padding to 30px*/
   border: 2px solid black;
 }
+
+/*Using the shorthand property with 4 values*/
+.padding-shorthand-four-values p{
+  padding: 20px 30px 40px 50px; /*This sets the top padding to 20px, right padding to 30px, bottom padding to 40px, and left padding to 50px*/
+  border: 2px solid black;
+}
