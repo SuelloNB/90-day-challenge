@@ -16,6 +16,7 @@ pre {
     width: fit-content;
     overflow-x: auto;
     background-color: rgba(0, 0, 0, 0.08);
+    color: red;
 }
 
 /*Margins are the space outside the border of an element. They create space between elements.*/
@@ -80,5 +81,11 @@ pre {
 /*Using the shorthand property with 2 values*/
 .padding-shorthand-two-values p{
   padding: 30px 40px; /*This sets the top, bottom padding to 30px and left , right padding to 40px*/
+  border: 2px solid black;
+}
+
+/*Using the shorthand property with 3 values*/
+.padding-shorthand-three-values p{
+  padding: 20px 40px 30px; /*This sets the top padding to 20px, right and left padding to 40px and bottom padding to 30px*/
   border: 2px solid black;
 }
