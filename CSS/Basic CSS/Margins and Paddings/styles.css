@@ -56,3 +56,17 @@ pre {
   margin: 10px 20px 30px 40px; /* This sets the top margin to 10px, right margin to 20px, bottom margin to 30px, and left margin to 40px */
   border: 2px solid black;  
 }
+
+/*===============================================================
+    PADDING EXAMPLES
+  
+    - Padding is the space between the content of an element and its border.
+    - It creates space inside the element, pushing the content away from the edges.
+================================================================ */
+.padding-example p{
+    padding-top: 10px; /* Adds 10px space above the content */
+    padding-right: 20px; /* Adds 20px space to the right of the content */
+    padding-bottom: 30px; /* Adds 30px space below the content */
+    padding-left: 40px; /* Adds 40px space to the left of the content */
+    border: 2px solid black; /* This is just to visualize the padding */
+}
