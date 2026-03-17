@@ -41,12 +41,12 @@ section{
 
 /*Using list-style in an unoredered lists*/
 .using-list-style > ul{
-    list-style: square; /*Sets the style of the lists to square*/
+    list-style-type: square; /*Sets the style of the lists to square*/
 }
 
 /*Using list-style in an oredered lists*/
 .using-list-style > ol{
-    list-style: lower-roman; /*Sets the style of the lists to lower roman numeral*/
+    list-style-type: lower-roman; /*Sets the style of the lists to lower roman numeral*/
 }
 
 /*Using list-style-position*/
