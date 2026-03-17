@@ -60,3 +60,8 @@ section{
     list-style-position: outside;
 }
 
+/*Using list-style-image property*/
+.list-style-image ul{
+    list-style-image: url('../Assets/images/sunflower.png');
+    list-style-position: inside;
+}
