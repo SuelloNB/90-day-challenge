@@ -129,6 +129,18 @@ list-style-position: inside;
                 <li>Item 26</li>
                 <li>Item 27</li>
             </ul>
+            <pre><code>
+/*Using list-style-image*/
+.list-style-image li::before {
+    content: "";
+    display: inline-block; /* Controls the width and height of the image */
+    width: 100px;   /* sets the image width to 100px */
+    height: 100px;  /* sets the image height to 100px*/
+    background-image: url("../Assets/images/sunflower.png");
+    background-size: cover;
+    margin-right: 10px;
+}                
+            </code></pre>
         </div>
     </section>
 </body>
