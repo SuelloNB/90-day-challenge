@@ -1,0 +1,25 @@
+/* ==============================================================
+   CODE BLOCK STYLING
+
+   - <pre> elements are block-level and normally expand to the
+     full width of their container.
+
+   - width: fit-content allows the border to wrap tightly
+     around the code text instead of stretching full width.
+
+   - overflow-x: auto ensures long code lines do not break
+     the layout by enabling horizontal scrolling when needed.
+================================================================ */
+pre {
+    border: 2px solid black;
+    padding: 10px;
+    width: fit-content;
+    overflow-x: auto;
+    background-color: rgba(0, 0, 0, 0.08);
+    color: red;
+}
+
+/*Spacing list using margins*/
+.spacing-list-item-using-margins li{
+    margin-bottom: 40px; /*sets the bottom margin to 40px*/
+}
