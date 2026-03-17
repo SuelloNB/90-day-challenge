@@ -76,6 +76,50 @@ line-height: 2; /*sets the line height to be twice the font size, creating more 
 }                   
 </code></pre>
         </div>
+
+        <!--list-style-position-->
+        <div class="list-style-position">
+            <h2>List-Type-Postion Properties</h2>
+            <h3>Inside position of unordered and ordered lists</h3>
+            <!--Using inside list-style-position-->
+            <ul id="inside-list-style">
+                <li>Item 13</li>
+                <li>Item 14</li>
+                <li>Item 15</li>
+            </ul>
+            <ol>
+                <li>Item 16</li>
+                <li>Item 17</li>
+                <li>Item 18</li>
+            </ol>
+            <pre><code>
+/*Using list-style-position*/
+/*Using inside list-style-position*/
+#inside-list-style li, #inside-list-style + ol li{
+list-style-position: inside;
+}
+            </code></pre>
+            <!--Using outside list-style-position-->
+            <h3>Outside position of unordered and ordered lists</h3>
+            <ul id="outside-list-style">
+                <li>Item 19</li>
+                <li>Item 20</li>
+                <li>Item 21</li>
+            </ul>
+            <ol>
+                <li>Item 16</li>
+                <li>Item 17</li>
+                <li>Item 18</li>
+            </ol>
+            <pre><code>
+/*Using list-style-position*/
+/*Using outside list-style-position*/
+#outside-list-style li, #outside-list-style + ol li{
+    list-style-position: outside;
+}
+                
+            </code></pre>
+        </div>
     </section>
 </body>
 </html>
