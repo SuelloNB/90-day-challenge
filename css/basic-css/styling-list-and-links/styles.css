@@ -74,3 +74,21 @@ section{
 .list-style-shorthand ul{
     list-style: square inside url('https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg');
 }
+
+/*Default link styles*/
+.default-link-styles a{
+    display: block; /*Sets display to block since anchor element is an inline element*/
+    color: blue; /*Color is unnecessary since the default color of an anchor element is blue. This is just an example.*/
+}
+.default-link-styles a:visited{
+    color: purple; /*Color for visited is unnecessary since the default color for visited anchor element is purple. This is just an example.*/
+}
+
+/*Hover and Active Psuedo Classes*/
+.hover-and-active-psuedo-classes a:hover{
+    color: red;
+}
+
+.hover-and-active-psuedo-classes a:active{
+    color: black;
+}
