@@ -19,8 +19,12 @@ pre {
     color: red;
 }
 
-h1{
+h1, h2{
     text-align: center; /*Sets every h1 to align the text to center*/
+}
+
+.source {
+    color: blue;
 }
 
 /*Sets the bottom margin to 20px and border bottom to 2px solid black in every section*/
@@ -30,22 +34,22 @@ section{
 }
 
 /*Spacing lists using margins*/
-.spacing-list-item-using-margins li{
+.list-item-using-margins li{
     margin-bottom: 40px; /*sets the bottom margin to 40px*/
 }
 
 /*Spacing lists using line-heights*/
-.spacing-list-item-using-line-height li{
+.list-item-using-line-height li{
     line-height: 2; /*sets the line height to be twice the font size, creating more vertical space within each list item*/
 }
 
 /*Using list-style in an unoredered lists*/
-.using-list-style > ul{
+.list-style-type > ul{
     list-style-type: square; /*Sets the style of the lists to square*/
 }
 
 /*Using list-style in an oredered lists*/
-.using-list-style > ol{
+.list-style-type > ol{
     list-style-type: lower-roman; /*Sets the style of the lists to lower roman numeral*/
 }
 
@@ -67,6 +71,6 @@ section{
 }
 
 /*Using list-style short-hand property*/
-.list-style-short-hand-property ul{
+.list-style-shorthand ul{
     list-style: square inside url('https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg');
 }
