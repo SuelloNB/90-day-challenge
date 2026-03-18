@@ -86,9 +86,9 @@ section{
 
 /*Hover and Active Psuedo Classes*/
 .hover-and-active-psuedo-classes a:hover{
-    color: red;
+    color: red; /*Sets the text color to red when hovered*/
 }
 
 .hover-and-active-psuedo-classes a:active{
-    color: black;
+    color: black;   /*Sets the text color to black when clicked*/
 }
