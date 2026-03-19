@@ -75,9 +75,11 @@ section{
     list-style: square inside url('https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg');
 }
 
+a{
+    display: block; /*sets anchor element to dispalay block since this element is an inline element*/
+}
 /*Default link styles*/
 .default-link-styles a{
-    display: block; /*Sets display to block since anchor element is an inline element*/
     color: blue; /*Color is unnecessary since the default color of an anchor element is blue. This is just an example.*/
 }
 .default-link-styles a:visited{
@@ -91,4 +93,9 @@ section{
 
 .hover-and-active-psuedo-classes a:active{
     color: black;   /*Sets the text color to black when clicked*/
+}
+
+/*Normal state (unvisited link)*/
+.style-link-states a:link{
+    color: red;
 }

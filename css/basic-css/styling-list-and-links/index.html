@@ -80,7 +80,7 @@ line-height: 2; /*sets the line height to be twice the font size, creating more 
         <!--list-style-position-->
         <div class="list-style-position">
             <h3>List-Type-Position Properties</h3>
-            <h3>Inside position of unordered and ordered lists</h3>
+            <h4>Inside position of unordered and ordered lists</h4>
             <!--Using inside list-style-position-->
             <ul id="inside-list-style">
                 <li>Item 13</li>
@@ -100,7 +100,7 @@ list-style-position: inside;
 }
             </code></pre>
             <!--Using outside list-style-position-->
-            <h3>Outside position of unordered and ordered lists</h3>
+            <h4>Outside position of unordered and ordered lists</h4>
             <ul id="outside-list-style">
                 <li>Item 19</li>
                 <li>Item 20</li>
@@ -160,7 +160,6 @@ list-style-position: inside;
             <a href="/">Example link</a>
             <pre><code>/*Default link styles*/
 .default-link-styles a{
-    display: block; /*Sets display to block since anchor element is an inline element*/
     color: blue; /*Color is unnecessary since the default color of an anchor element is blue. This is just an example.*/
 }
 .default-link-styles a:visited{
@@ -183,6 +182,25 @@ list-style-position: inside;
     color: black;   /*Sets the text color to black when clicked*/
 }
             </code></pre>
+        </div>
+
+        <!--Styling Different Link States-->
+        <div class="style-link-states">
+            <h3>Styling Different Link States</h3>
+            <!--Normal state (unvisited link)-->
+            <h4>Normal State (unvisited link)</h4>
+            <a href="facebook.com">Link 2</a>
+            <pre><code>
+/*Normal state (unvisited link)*/
+.style-link-states a:link{
+    color: red;
+}                
+            </code></pre>
+        </div>
+        
+        <!--Visited Link-->
+        <div class="visited-link">
+            <h4>Visited Link</h4>
         </div>
     </section>
 </body>
