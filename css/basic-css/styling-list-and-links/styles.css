@@ -112,5 +112,11 @@ a{
 
 /*Active state*/
 .active-state a:active{
-    color: yellow;
+    color: yellow; /*sets the color to yellow when clicked or active*/
+}
+
+/*Focus state*/
+.focus-state a:focus{
+    outline: 2px solid burlywood; /*sets the border to 2px solid burlywood when focused, such as navigating with keyboard*/
+    color: rgb(0, 38, 71);
 }
