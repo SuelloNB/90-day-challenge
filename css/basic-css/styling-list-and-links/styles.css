@@ -99,3 +99,8 @@ a{
 .style-link-states a:link{
     color: red;
 }
+
+/*Visited link*/
+.visited-link a:visited{
+    color: rgb(244, 2, 195);
+}
