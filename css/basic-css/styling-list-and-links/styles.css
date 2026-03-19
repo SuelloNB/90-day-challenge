@@ -97,10 +97,15 @@ a{
 
 /*Normal state (unvisited link)*/
 .style-link-states a:link{
-    color: red;
+    color: red; /*Sets the color to red when unvisited*/
 }
 
 /*Visited link*/
 .visited-link a:visited{
     color: rgb(244, 2, 195);
+}
+
+/*Hover state*/
+.hover-state a:hover{
+    color: rgb(50, 153, 119);
 }

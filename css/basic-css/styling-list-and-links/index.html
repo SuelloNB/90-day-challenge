@@ -193,7 +193,9 @@ list-style-position: inside;
             <pre><code>
 /*Normal state (unvisited link)*/
 .style-link-states a:link{
-    color: red;
+    color: red; /*Sets the color to red when unvisited*/
+}
+
 }                
             </code></pre>
         </div>
@@ -205,8 +207,20 @@ list-style-position: inside;
             <pre><code>
 /*Visited link*/
 .visited-link a:visited{
-    color: rgb(244, 2, 195);
+    color: rgb(244, 2, 195); /*sets the color to dark pink when visited*/
 }   
+            </code></pre>
+        </div>
+
+        <!--Hover State-->
+        <div class="hover-state">
+            <h4>Hover State</h4>
+            <a href="/">Link 4</a>
+            <pre><code>
+/*Hover state*/
+.hover-state a:hover{
+    color: rgb(50, 153, 119); /*setes the color to aquagreen when hovered*/
+}
             </code></pre>
         </div>
     </section>
