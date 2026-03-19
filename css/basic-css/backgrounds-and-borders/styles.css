@@ -32,7 +32,14 @@ pre {
 }
 
 /*Background Size Property*/
-.bg-img-size{
+/*Contain Value*/
+.bg-img-contain{
     background-image: url("../assets/images/sunflower.png"); /*Set a background image to a container*/
     background-size: contain; /*set the image size to contain*/
+}
+
+/*Cover Value*/
+.bg-img-cover{
+    background-image: url("../assets/images/sunflower.png");
+    background-size: cover; /*Sets the image size to cover*/
 }

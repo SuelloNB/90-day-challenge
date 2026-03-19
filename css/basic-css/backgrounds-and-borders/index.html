@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1>Working with Backgrounds and Borders</h1>
     <!--Background Image Property-->
     <div>
-        <h1>Backround Image Property</h1>
+        <h2>Backround Image Property</h2>
         <div class="bg-img container"></div>
         <pre><code>
 /*Background Image Property*/
@@ -21,13 +21,29 @@
     </div>
 
     <!--Background Size Property-->
+    <h2>Background Size Property</h2>
+    <!--Contain Value-->
     <div>
-        <div class="bg-img-size container"></div>
+        <h3>Contain Value</h2>
+        <div class="bg-img-contain container"></div>
         <pre><code>
-/*Background Size Property*/
+/*Contain Value*/
 .bg-img-size{
     background-image: url("../assets/images/sunflower.png"); /*Set a background image to a container*/
 background-size: contain; /*set the image size to contain*/
+}
+        </code></pre>
+    </div>
+
+    <!--Cover Value-->
+    <div>
+        <h3>Cover Value</h3>
+        <div class="bg-img-cover container"></div>
+        <pre><code>
+/*Cover Value*/
+.bg-img-cover{
+    background-image: url("../assets/images/sunflower.png");
+    background-size: cover; /*Sets the image size to cover*/
 }
         </code></pre>
     </div>
