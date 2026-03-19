@@ -1,7 +1,38 @@
-/*Background Image Property*/
-.background-img-container{
-    background-image: url("../assets/images/sunflower.png"); /*Set a background image to a container*/
-    /*To display the image. Set the width and height to 200px*/
+/* ==============================================================
+   CODE BLOCK STYLING
+
+   - <pre> elements are block-level and normally expand to the
+     full width of their container.
+
+   - width: fit-content allows the border to wrap tightly
+     around the code text instead of stretching full width.
+
+   - overflow-x: auto ensures long code lines do not break
+     the layout by enabling horizontal scrolling when needed.
+================================================================ */
+pre {
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    overflow-x: auto;
+    background-color: rgba(0, 0, 0, 0.08);
+    color: red;
+}
+
+
+/*Display the image set the widith and height to 200px to the container*/
+.container{
     width: 200px; 
     height: 200px;
+}
+
+/*Background Image Property*/
+.bg-img{
+    background-image: url("../assets/images/sunflower.png"); /*Set a background image to a container*/
+}
+
+/*Background Size Property*/
+.bg-img-size{
+    background-image: url("../assets/images/sunflower.png"); /*Set a background image to a container*/
+    background-size: contain; /*set the image size to contain*/
 }
