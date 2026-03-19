@@ -1,60 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
     <meta charset="utf-8">
     <title>Styled To-Do List</title>
     <link rel="stylesheet" href="styles.css">
+
+    <!-- DaisyUI + Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet">
 </head>
 
-<body>
-    <body class="flex items-center justify-center min-h-screen bg-base-200">
+<body class="flex items-center justify-center min-h-screen bg-base-200">
 
-        <div class="card bg-base-100 w-96 border border-base-300 shadow-xl">
-          <div class="card-body">
-            
-            <h2 class="card-title text-center">To-Do List</h2>
-      
-            <ul class="menu">
-      
-              <li>
-                <label class="flex items-center gap-3">
-                  <input type="checkbox" class="checkbox checkbox-sm" checked>
-                  <span>Check Email</span>
-                </label>
-                <a href="https://gmail.com" class="link link-info ml-6" target="_blank">Gmail</a>
-              </li>
-      
-              <li>
-                <label class="flex items-center gap-3">
-                  <input type="checkbox" class="checkbox checkbox-sm" checked>
-                  <span>Facebook Messages</span>
-                </label>
-                <a href="https://facebook.com" class="link link-info ml-6" target="_blank">Facebook</a>
-              </li>
-      
-              <li>
-                <label class="flex items-center gap-3">
-                  <input type="checkbox" class="checkbox checkbox-sm" checked>
-                  <span>Instagram Messages</span>
-                </label>
-                <a href="https://instagram.com" class="link link-info ml-6" target="_blank">Instagram</a>
-              </li>
-      
-              <li>
-                <label class="flex items-center gap-3">
-                  <input type="checkbox" class="checkbox checkbox-sm" checked>
-                  <span>TikTok Notifications</span>
-                </label>
-                <a href="https://tiktok.com" class="link link-info ml-6" target="_blank">TikTok</a>
-              </li>
-      
+    <div class="card bg-base-100 w-96 border border-base-300 shadow-xl">
+        <div class="card-body">
+
+            <h2 class="card-title justify-center text-2xl mb-4">
+                My To-Do List
+            </h2>
+
+            <!-- IMPORTANT: spacing between items -->
+            <ul class="space-y-4">
+
+                <!-- ITEM -->
+                <li class="bg-base-300 p-4 rounded-xl">
+                    <label class="flex items-center gap-3">
+                        <input type="checkbox" class="checkbox checkbox-sm">
+                        <span>Check Emails</span>
+                    </label>
+
+                    <ul class="ml-6 mt-2 list-disc">
+                        <li>
+                            <a href="gmail.com" class="link link-info">Email</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- ITEM -->
+                <li class="bg-base-300 p-4 rounded-xl">
+                    <label class="flex items-center gap-3">
+                        <input type="checkbox" class="checkbox checkbox-sm">
+                        <span>Check Messages on Facebook</span>
+                    </label>
+
+                    <ul class="ml-6 mt-2 list-disc">
+                        <li>
+                            <a href="facebook.com" class="link link-info">Facebook</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- ITEM -->
+                <li class="bg-base-300 p-4 rounded-xl">
+                    <label class="flex items-center gap-3">
+                        <input type="checkbox" class="checkbox checkbox-sm">
+                        <span>Check Messages on Instagram</span>
+                    </label>
+
+                    <ul class="ml-6 mt-2 list-disc">
+                        <li>
+                            <a href="instagram.com" class="link link-info">Instagram</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- ITEM -->
+                <li class="bg-base-300 p-4 rounded-xl">
+                    <label class="flex items-center gap-3">
+                        <input type="checkbox" class="checkbox checkbox-sm">
+                        <span>Check Notification on TikTok</span>
+                    </label>
+
+                    <ul class="ml-6 mt-2 list-disc">
+                        <li>
+                            <a href="tiktok.com" class="link link-info">TikTok</a>
+                        </li>
+                    </ul>
+                </li>
+
             </ul>
-      
-          </div>
+
         </div>
-      
-      </body>
+    </div>
+
 </body>
 </html>
