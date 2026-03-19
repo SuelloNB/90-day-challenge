@@ -22,8 +22,8 @@ pre {
 
 /*Display the image set the widith and height to 200px to the container*/
 .container{
-    width: 200px; 
-    height: 200px;
+    width: auto; 
+    height: 300px;
 }
 
 /*Background Image Property*/
@@ -50,4 +50,11 @@ pre {
     background-image: url("../assets/images/sunflower.png");
     background-size: contain; /*Background size set to contain*/
     background-repeat: no-repeat; /*Set the background-repeat property to no-repeat so that the image will no longer repeat on the screen*/
+}
+
+/*Repeat-x value*/
+.bg-img-repeat-x{
+    background-image: url("../assets/images/sunflower.png");
+    background-size: contain; /*Background size set to contain*/
+    background-repeat: repeat-x; /*Repeats the background image horizontally*/
 }
