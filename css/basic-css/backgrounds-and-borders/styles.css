@@ -1,0 +1,7 @@
+/*Background Image Property*/
+.background-img-container{
+    background-image: url("../assets/images/sunflower.png"); /*Set a background image to a container*/
+    /*To display the image. Set the width and height to 200px*/
+    width: 200px; 
+    height: 200px;
+}
