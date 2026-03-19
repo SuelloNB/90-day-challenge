@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stylized To-Do-List</title>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>To-Do-List</h1>
+    <body class="flex items-center justify-center min-h-screen bg-base-200">
+
+        <div class="card bg-base-100 w-96 border border-base-300 shadow-xl">
+          <div class="card-body">
+            
+            <h2 class="card-title text-center">To-Do List</h2>
+      
+            <ul class="menu">
+      
+              <li>
+                <label class="flex items-center gap-3">
+                  <input type="checkbox" class="checkbox checkbox-sm" checked>
+                  <span>Check Email</span>
+                </label>
+                <a href="https://gmail.com" class="link link-info ml-6" target="_blank">Gmail</a>
+              </li>
+      
+              <li>
+                <label class="flex items-center gap-3">
+                  <input type="checkbox" class="checkbox checkbox-sm" checked>
+                  <span>Facebook Messages</span>
+                </label>
+                <a href="https://facebook.com" class="link link-info ml-6" target="_blank">Facebook</a>
+              </li>
+      
+              <li>
+                <label class="flex items-center gap-3">
+                  <input type="checkbox" class="checkbox checkbox-sm" checked>
+                  <span>Instagram Messages</span>
+                </label>
+                <a href="https://instagram.com" class="link link-info ml-6" target="_blank">Instagram</a>
+              </li>
+      
+              <li>
+                <label class="flex items-center gap-3">
+                  <input type="checkbox" class="checkbox checkbox-sm" checked>
+                  <span>TikTok Notifications</span>
+                </label>
+                <a href="https://tiktok.com" class="link link-info ml-6" target="_blank">TikTok</a>
+              </li>
+      
+            </ul>
+      
+          </div>
+        </div>
+      
+      </body>
 </body>
 </html>
