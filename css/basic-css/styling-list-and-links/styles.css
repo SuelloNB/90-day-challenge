@@ -102,10 +102,15 @@ a{
 
 /*Visited link*/
 .visited-link a:visited{
-    color: rgb(244, 2, 195);
+    color: rgb(244, 2, 195); /*sets the color to dark pink when visited*/
 }
 
 /*Hover state*/
 .hover-state a:hover{
-    color: rgb(50, 153, 119);
+    color: rgb(50, 153, 119); /*setes the color to aquagreen when hovered*/
+}
+
+/*Active state*/
+.active-state a:active{
+    color: yellow;
 }
