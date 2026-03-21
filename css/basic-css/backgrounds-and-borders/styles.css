@@ -83,3 +83,8 @@ pre {
     background-position:  center top; /*Sets the images' position to center top*/
     background-attachment: fixed; /*Sets the background attachment property to fixed, where the background image stays in the same position on the screen*/
 }
+
+/*Short-hand background property*/
+.bg-img-short-hand{
+    background: no-repeat center top fixed url("../assets/images/sunflower.png"); /*Sets the background-position to center top, background-attachment to fixed and background-image directory*/
+}
