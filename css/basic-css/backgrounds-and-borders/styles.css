@@ -49,7 +49,7 @@ pre {
 .bg-img-no-repeat{
     background-image: url("../assets/images/sunflower.png");
     background-size: contain; /*Background size set to contain*/
-    background-repeat: no-repeat; /*Set the background-repeat property to no-repeat so that the image will no longer repeat on the screen*/
+    background-repeat: no-repeat; /*Sets the background's behavior to no-repeat*/
 }
 
 /*Repeat-x value*/
@@ -71,14 +71,15 @@ pre {
 .bg-img-center-top{
     background-image: url("../assets/images/sunflower.png");
     background-size: contain; /*Sets the background size to contain*/
-    background-repeat: no-repeat; /*Set the background-repeat property to no-repeat so that the image will no longer repeat on the screen*/
+    background-repeat: no-repeat; /*Sets the background's behavior to no-repeat*/
     background-position: center top; /*Sets the background positon to center top*/
 }
 
-/*Top Value*/
-.bg-img-top{
+/*Background attachment property*/
+/*Fixed Value*/
+.bg-img-fixed{
     background-image: url("../assets/images/sunflower.png");
-    background-size: contain; /*Sets the background size to contain*/
-    background-repeat: no-repeat; /*Set the background-repeat property to no-repeat so that the image will no longer repeat on the screen*/
-    background-position:  left bottom; /*Sets the background positon to left top*/
+    background-repeat: no-repeat; /*Sets the background's behavior to no-repeat*/
+    background-position:  center top; /*Sets the images' position to center top*/
+    background-attachment: fixed; /*Sets the background attachment property to fixed, where the background image stays in the same position on the screen*/
 }
