@@ -58,3 +58,10 @@ pre {
     background-size: contain; /*Background size set to contain*/
     background-repeat: repeat-x; /*Repeats the background image horizontally*/
 }
+
+/*Repeat-y value*/
+.bg-img-repeat-y{
+    background-image: url("../assets/images/sunflower.png");
+    background-size: contain; /*Background size set to contain*/
+    background-repeat: repeat-y; /*Repeats the background image vertically*/
+}
