@@ -89,3 +89,11 @@ pre {
 .bg-img-short-hand{
     background: no-repeat center top fixed url("../assets/images/sunflower.png"); /*Sets the background-position to center top, background-attachment to fixed and background-image directory*/
 }
+
+/*Background gradient and it's function*/
+
+/*Linear gradient*/
+.linear-gradient{
+    background: linear-gradient(to right, red, yellow);
+    height: 25vh;
+}
