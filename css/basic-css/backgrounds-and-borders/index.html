@@ -172,7 +172,28 @@ background-size: contain; /*set the image size to contain*/
 .radial-gradient{
     background: radial-gradient(circle closest-corner at center, red, yellow 50%, green); /*Creates a circular radial gradient centered in the element. Starts with red at the center, transitions to yellow at 50% of the radius, and ends with green*/
     height: 25vh;
-}</code></pre>
+}
+</code></pre>
+    </div>
+
+    <!--Accessibility Considerations for Backgrounds-->
+    <h2>Accessibility Considerations for Backgrounds</h2>
+
+    <!--Poor Contrast-->
+    <div>
+        <h3>Poor Contrast</h3>
+        <div class="poor-contrast">
+            <p>This is an example of poor contrast.</p>
+        </div>
+        <pre><code>
+/*Accessibility considerations for backgrounds*/
+
+/*Poor contrast*/
+.poor-contrast p{
+    color: lightgray;
+    background-color: whitesmoke;
+}
+        </code></pre>
     </div>
 </body>
 </html>

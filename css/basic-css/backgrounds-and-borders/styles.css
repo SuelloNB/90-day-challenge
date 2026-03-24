@@ -20,6 +20,8 @@ pre {
 }
 
 
+
+
 /*Display the image set the widith and height to 200px to the container*/
 .container{
     min-width: 500px;
@@ -102,4 +104,12 @@ pre {
 .radial-gradient{
     background: radial-gradient(circle closest-corner at center, red, yellow 50%, green); /*Creates a circular radial gradient centered in the element. Starts with red at the center, transitions to yellow at 50% of the radius, and ends with green*/
     height: 25vh;
+}
+
+/*Accessibility considerations for backgrounds*/
+
+/*Poor contrast*/
+.poor-contrast p{
+    color: lightgray;
+    background-color: whitesmoke;
 }
