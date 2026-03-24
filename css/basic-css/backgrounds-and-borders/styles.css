@@ -94,6 +94,12 @@ pre {
 
 /*Linear gradient*/
 .linear-gradient{
-    background: linear-gradient(to right, red, yellow);
+    background: linear-gradient(to right, red, yellow); /*linear gradient that transitions from red to on the left to yellow on the right*/
+    height: 25vh;
+}
+
+/*Radial gradient*/
+.radial-gradient{
+    background: radial-gradient(circle closest-corner at center, red, yellow 50%, green); /*Creates a circular radial gradient centered in the element. Starts with red at the center, transitions to yellow at 50% of the radius, and ends with green*/
     height: 25vh;
 }
