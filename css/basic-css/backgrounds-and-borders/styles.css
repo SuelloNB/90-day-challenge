@@ -110,6 +110,12 @@ pre {
 
 /*Poor contrast*/
 .poor-contrast p{
-    color: lightgray;
-    background-color: whitesmoke;
+    color: lightgray; /*Sets the text color to light gray*/
+    background-color: whitesmoke; /*sets the background-color to whitesmoke*/
+}
+
+/*Good contrast*/
+.good-contrast p{
+    color: white; /*Sets the text color to white*/
+    background-color: darkslategray; /*Sets the background-color to darkslategrey*/
 }
