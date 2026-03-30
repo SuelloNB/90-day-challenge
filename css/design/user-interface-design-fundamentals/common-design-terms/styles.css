@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 600px;
+    margin: 20px;
+    text-align: center;
+}
+
+.title{
+    color: black;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.description{
+    margin: 30px;
+    font-size: 20px;
+    color: dimgrey;
+    text-align: justify;
+}
+
+.link{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.link a{
+    text-decoration: none;
+    color: blue;
+    padding: 2px;
+}
+.link a:hover{
+    border-radius: 5px;
+    background-color: blue;
+    color: beige;
+}
