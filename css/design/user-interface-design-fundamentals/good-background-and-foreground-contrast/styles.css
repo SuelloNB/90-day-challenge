@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    color: whitesmoke;
+}
+
+.container{
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px whitesmoke;
+    overflow: hidden;
+    width: 700px;
+    margin: 20px;
+    text-align: center;
+}
+
+.title, .description, .source{
+    margin: 30px;
+}
+
+.title{
+    font-size: 35px;
+}
+
+.description{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.source{
+    font-size: 20px;
+    text-align: left;
+}
+
+.link{
+    display: inline-block;
+    margin: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.link:hover{
+    box-shadow: 0 4px 8px whitesmoke;
+}
