@@ -5,7 +5,7 @@ body{
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
-    color: #333;
+    color: whitesmoke;
 }
 
 .container{
@@ -17,6 +17,10 @@ body{
 
 .title, .description{
     margin: 30px;
+}
+
+.description{
+    text-align: justify;
 }
 
 .link a{
@@ -34,6 +38,7 @@ body{
     padding: 2px;
     margin: 20px;
     text-align: center;
+    color: #333;
 }
 
 .callout a{
