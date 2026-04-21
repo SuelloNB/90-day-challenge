@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Are Best Practices for Designing a Dark Mode Feature?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="img-container">
+                <img src="../../assets/user-centered-design.jpg" alt="Notebook displaying hand-drawn wireframes and UI layout sketches, with a pen placed on top and a smartphone beside it, representing the user interface design and planning process.">
+            </div>
+            <div class="content">
+                <div class="toggle-mode"><button id="toggle-mode">Toggle Dark Mode</button></div>
+                <h1 class="content-title">What Are Best Practices for Designing a Dark Mode Feature?</h1>
+                <p class="content-description">Designing an effective dark mode is far more nuanced than simply inverting your CSS hex codes; it requires a deliberate shift in how you handle depth and legibility. From a senior engineering perspective, the golden rule is to avoid pure black (#000000) for large surfaces to prevent "smearing" on OLED screens and excessive eye strain; instead, use deep grays and communicate elevation by using progressively lighter surface overlays rather than traditional drop shadows. You must also desaturate your primary color palette, as high-vibrancy colors that look great on white backgrounds can "bleed" and become unreadable against dark tones, potentially failing WCAG accessibility standards. Ultimately, the best implementation respects the user’s system-level preferences via the prefers-color-scheme media query while offering a manual override toggle to ensure the interface remains comfortable regardless of the ambient lighting.</p>
+                <p class="content-source"><strong>Source: </strong>freeCodeCamp</p>
+                <a href="https://www.freecodecamp.org/learn/responsive-web-design-v9/lecture-user-centered-design/what-are-best-practices-for-designing-a-dark-mode-feature" class="content-link" target="_blank">
+                    Visit freeCodeCamp
+                </a>
+                <div class="buttons">
+                    <button class="saturated">Saturated Button</button>
+                    <button class="desaturated">Desaturated Button</button>
+                </div>
+
+                  <div class="dark-mode-examples">
+                    <div class="box harsh-dark">
+                      <h2>High Contrast</h2>
+                      <p>Pure black background with white text. While readable, it can be harsh on the eyes.</p>
+                    </div>
+                
+                    <div class="box soft-dark">
+                      <h2>Soft Contrast</h2>
+                      <p>Dark gray background with light gray text. Easier to read and more comfortable for long periods.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
